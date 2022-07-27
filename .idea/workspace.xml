@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cdaf1ea-232b-4cf6-a1e7-2b9714daf0ef" name="变更" comment="提交">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaStudy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/textyang/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/textyang/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/textyang/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/textyang/debug/Debug01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/textyang/string/String01.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2B3UhH0nM2jUTN0ijSkOnZctpaL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/JAVA/ssmweb",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="应用程序.com.textyang.string.String01">
+    <configuration name="Debug01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.textyang.debug.Debug01" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.textyang.debug.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.textyang.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.textyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.textyang.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.textyang.Main" />
+      <module name="JavaStudy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.textyang.string.String01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.textyang.string.String01" />
+      <module name="JavaStudy" />
+      <option name="PROGRAM_PARAMETERS" value="abc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.textyang.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="应用程序.com.textyang.Main" />
+      <item itemvalue="应用程序.Debug01" />
+      <item itemvalue="应用程序.Solution" />
+      <item itemvalue="应用程序.com.textyang.string.String01" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.com.textyang.string.String01" />
+        <item itemvalue="应用程序.Debug01" />
+        <item itemvalue="应用程序.Solution" />
+        <item itemvalue="应用程序.com.textyang.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="9cdaf1ea-232b-4cf6-a1e7-2b9714daf0ef" name="变更" comment="" />
+      <created>1656134382500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656134382500</updated>
+      <workItem from="1656134384720" duration="8134000" />
+      <workItem from="1656249262698" duration="1224000" />
+      <workItem from="1656294581711" duration="4961000" />
+      <workItem from="1656726191008" duration="1773000" />
+      <workItem from="1656827947253" duration="5797000" />
+      <workItem from="1656901693305" duration="642000" />
+      <workItem from="1656902882163" duration="136000" />
+      <workItem from="1656903032409" duration="403000" />
+      <workItem from="1656903561179" duration="87000" />
+      <workItem from="1656903690122" duration="8260000" />
+      <workItem from="1656986413330" duration="2202000" />
+      <workItem from="1657344705644" duration="161000" />
+      <workItem from="1657344937928" duration="135000" />
+      <workItem from="1657345147421" duration="14000" />
+      <workItem from="1657345192208" duration="967000" />
+      <workItem from="1657596446563" duration="91000" />
+      <workItem from="1657596551164" duration="1245000" />
+      <workItem from="1657598103655" duration="9000" />
+      <workItem from="1657598130688" duration="23000" />
+      <workItem from="1657598183558" duration="76000" />
+      <workItem from="1657598274618" duration="90000" />
+      <workItem from="1657598374365" duration="97000" />
+      <workItem from="1658110968772" duration="6269000" />
+      <workItem from="1658726261390" duration="1367000" />
+      <workItem from="1658885623718" duration="10933000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArithmeticException" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
