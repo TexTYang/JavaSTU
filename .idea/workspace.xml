@@ -8,12 +8,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cdaf1ea-232b-4cf6-a1e7-2b9714daf0ef" name="变更" comment="提交">
-      <change afterPath="$PROJECT_DIR$/src/com/textyang/ClustersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/textyang/DiskClusters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/textyang/string/StringBuilder01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/textyang/string/Stringbuffer01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/collection/ArrayList_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/collection/Collection_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/collection/Iterator_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/arrays_/ArrayExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/arrays_/ArraysMethod01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/arrays_/ArraysMethod02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/arrays_/ArraysSortCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/bignum/BigDecimal_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/bignum/BigInteger_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/collection_/ArrayListDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/collection_/CollectionExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/collection_/CollectionFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/collection_/CollectionIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/collection_/CollectionMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/collection_/Collection_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/collections_/Collections_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/date_/Calendar_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/date_/Date01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/date_/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/date_/Instant_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/date_/LocalDate_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/homework/Homework01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/homework/Homework02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/homework/Homework03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/homework/Homework04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/homework/Homework05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/homework/Homework06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/list_/ArrayListSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/list_/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/list_/LinkedList01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/list_/LinkedListCRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/list_/ListExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/list_/ListExercise02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/list_/ListFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/list_/ListMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/list_/List_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/list_/Vector_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/map_/HashMapSource1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/map_/HashMapSource2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/map_/HashTableExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/map_/MapExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/map_/MapFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/map_/MapMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/map_/MapSource_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/map_/Map_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/map_/Properties_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/map_/TreeMap_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/math_/MathMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/set_/HashSet01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/set_/HashSetExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/set_/HashSetIncrement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/set_/HashSetSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/set_/HashSetStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/set_/HashSet_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/set_/LinkedHashSetExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/set_/LinkedHashSetSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/set_/SetMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/set_/TreeSet_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/string_/String01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/string_/StringExercise01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/string_/StringExercise03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/string_/StringExercise04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/string_/StringExercise05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/string_/StringExercise08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/string_/StringExercise09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/string_/StringExercise10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/string_/StringMethod01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/string_/StringMethod02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/string_/StringUML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/stringbuffer_/StringAndStringBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/stringbuffer_/StringBuffer01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/stringbuffer_/StringBuffer02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/stringbuffer_/StringBufferExercise01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/stringbuffer_/StringBufferExercise02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/stringbuffer_/StringBufferMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/stringbuilder_/StringBuilder01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/stringbuilder_/StringVsStringBufferVsStringBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/system_/System_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/wrapper/Integer01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/wrapper/WrapperExercise01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/wrapper/WrapperExercise02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/wrapper/WrapperExercise03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/wrapper/WrapperMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/wrapper/WrapperType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hspedu/wrapper/WrapperVSString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/list_/HashSet_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/list_/LinkedList_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/list_/List_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/list_/Present_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/list_/Vector_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qianfeng/linked_list/Linked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/textyang/array/ArraysMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/textyang/date/Date01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/textyang/map/Map_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/textyang/md5/MD5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/textyang/ClustersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/textyang/ClustersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/textyang/Game/MoraGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/textyang/Game/MoraGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/textyang/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/textyang/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/textyang/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/textyang/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/textyang/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/textyang/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/textyang/string/String01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/textyang/string/String01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/textyang/string/StringBuilder01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/textyang/string/StringBuilder01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/textyang/string/Stringbuffer01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/textyang/string/Stringbuffer01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,71 +151,87 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JAVA/JavaStudy&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JAVA/JavaStudy/src&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.list_" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA\JavaStudy\src" />
+      <recent name="D:\JAVA\JavaStudy\src\com\textyang" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA\JavaStudy\src\com\textyang\Game" />
+      <recent name="D:\JAVA\JavaStudy\src\com\textyang" />
       <recent name="D:\JAVA\JavaStudy\src\com\textyang\string" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.ClustersTest">
-    <configuration name="ClustersTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.textyang.ClustersTest" />
+  <component name="RunManager" selected="应用程序.Test">
+    <configuration name="MapFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspedu.map_.MapFor" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hspedu.map_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapSource_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspedu.map_.MapSource_" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hspedu.map_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Present_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.list_.Present_" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.list_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringVsStringBufferVsStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspedu.stringbuilder_.StringVsStringBufferVsStringBuilder" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hspedu.stringbuilder_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.textyang.Test" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.textyang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Debug01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.textyang.debug.Debug01" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.textyang.debug.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hello" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.textyang.Main" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.textyang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.textyang.string.Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.textyang.string.Hello" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.textyang.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,23 +240,26 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="应用程序.ClustersTest" />
-      <item itemvalue="应用程序.Main" />
-      <item itemvalue="应用程序.Hello" />
-      <item itemvalue="应用程序.com.textyang.string.Hello" />
-      <item itemvalue="应用程序.Debug01" />
+      <item itemvalue="应用程序.Present_" />
+      <item itemvalue="应用程序.Test" />
+      <item itemvalue="应用程序.MapFor" />
+      <item itemvalue="应用程序.MapSource_" />
+      <item itemvalue="应用程序.StringVsStringBufferVsStringBuilder" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.ClustersTest" />
-        <item itemvalue="应用程序.Main" />
-        <item itemvalue="应用程序.com.textyang.string.Hello" />
-        <item itemvalue="应用程序.Hello" />
-        <item itemvalue="应用程序.Debug01" />
+        <item itemvalue="应用程序.Test" />
+        <item itemvalue="应用程序.Present_" />
+        <item itemvalue="应用程序.MapFor" />
+        <item itemvalue="应用程序.MapSource_" />
+        <item itemvalue="应用程序.StringVsStringBufferVsStringBuilder" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="9cdaf1ea-232b-4cf6-a1e7-2b9714daf0ef" name="变更" comment="" />
@@ -180,7 +298,37 @@
       <workItem from="1662940105690" duration="1352000" />
       <workItem from="1663128162108" duration="220000" />
       <workItem from="1664603073821" duration="658000" />
-      <workItem from="1665199529868" duration="317000" />
+      <workItem from="1665199529868" duration="5401000" />
+      <workItem from="1665291666331" duration="10000" />
+      <workItem from="1665488321694" duration="3666000" />
+      <workItem from="1665552466537" duration="57000" />
+      <workItem from="1665552535692" duration="2299000" />
+      <workItem from="1665624533245" duration="1841000" />
+      <workItem from="1665707013462" duration="3220000" />
+      <workItem from="1665711784967" duration="1647000" />
+      <workItem from="1665717252550" duration="735000" />
+      <workItem from="1665718430826" duration="172000" />
+      <workItem from="1665718809761" duration="693000" />
+      <workItem from="1665750667616" duration="2123000" />
+      <workItem from="1665794800754" duration="3368000" />
+      <workItem from="1665803655590" duration="2802000" />
+      <workItem from="1665824575293" duration="4853000" />
+      <workItem from="1665879930027" duration="10044000" />
+      <workItem from="1665923410737" duration="2866000" />
+      <workItem from="1665966166180" duration="4779000" />
+      <workItem from="1665993517432" duration="9820000" />
+      <workItem from="1666056835391" duration="4561000" />
+      <workItem from="1666072698467" duration="305000" />
+      <workItem from="1666094673706" duration="2411000" />
+      <workItem from="1666147839668" duration="8157000" />
+      <workItem from="1666176785255" duration="3985000" />
+      <workItem from="1666312112393" duration="6487000" />
+      <workItem from="1666342202597" duration="1086000" />
+      <workItem from="1666400976735" duration="11146000" />
+      <workItem from="1666501016564" duration="6875000" />
+      <workItem from="1666529502317" duration="638000" />
+      <workItem from="1666572129232" duration="1193000" />
+      <workItem from="1666581221830" duration="4873000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1658962929322</created>
@@ -189,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658962929322</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="提交">
+      <created>1665200054574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665200054574</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +361,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -230,17 +385,108 @@
           <option name="timeStamp" value="5" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/textyang/string/String01.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/textyang/string/StringBuilder01.java</url>
           <line>9</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/textyang/string/String01.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../JDK/jdk17/lib/src.zip!/java.base/java/io/PrintStream.java</url>
+          <line>1032</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/textyang/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hspedu/list_/ArrayListSource.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hspedu/list_/ArrayListSource.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hspedu/list_/ArrayListSource.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/list_/HashSet_.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hspedu/set_/HashSetSource.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/list_/Present_.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/list_/Present_.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hspedu/set_/LinkedHashSetExercise.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hspedu/set_/HashSet_.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hspedu/set_/LinkedHashSetSource.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hspedu/set_/HashSetExercise.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hspedu/map_/MapSource_.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hspedu/map_/MapFor.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/textyang/Test.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.LinkedHashSet" memberName="map" />
+        <PinnedItemInfo parentTag="java.util.HashSet" memberName="map" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="hashset.map.table" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

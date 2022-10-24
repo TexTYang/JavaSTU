@@ -32,13 +32,17 @@ public class ClustersTest {
 		return result==dc.minimumFragmentation(disk,size);
 	}
 	public static void main(String[] args) {
-		if (Test1())
+		if (Test1()) {
 			System.out.println ("Test1 OK");
-		if (Test2())
+		}
+		if (Test2()) {
 			System.out.println ("Test2 OK");
-		if (Test3())
+		}
+		if (Test3()) {
 			System.out.println ("Test3 OK");
-		if (Test4())
+		}
+		if (Test4()) {
 			System.out.println ("Test4 OK");
+		}
 	}
 }

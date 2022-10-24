@@ -3,6 +3,9 @@ package com.textyang.string;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * @author Yang
+ */
 public class Stringbuffer01 {
     public static void main(String[] args) {
         StringBuffer stringbuffer = new StringBuffer();
@@ -12,6 +15,12 @@ public class Stringbuffer01 {
         System.out.println(nu);
         System.out.println(":"+stringbuffer.length());
         String string = "hello";
+        System.out.println(System.identityHashCode(string));
+        for(int o=0;o<1;o++){
+            string="aa";
+        }
+        string="hello";
+        System.out.println(System.identityHashCode(string));
         StringBuffer stringbuffer1 = new StringBuffer(string);
         stringbuffer = stringbuffer.append(string);
         System.out.println(stringbuffer);

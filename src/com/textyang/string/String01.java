@@ -26,7 +26,7 @@ public class String01 {
         a = Arrays.copyOf(d,100);
         System.out.println(a);
         Cat cat = new Cat();
-        cat.name = "猫";
+        cat.name = "cat";
         cat.age = 2;
         Arrays.sort(d);
         LocalDateTime localDateTime =  LocalDateTime.now();
@@ -59,7 +59,7 @@ public class String01 {
 
         String x = "abc";
         String y = "abc";
-        String z = new String("abc");
+        String z = new String("ababba\\\\abbc");
 //        z = "E:\\\\a\\\\b";
         System.out.println("show:"+(x == z));
         System.out.println(x.equals(z));
@@ -67,19 +67,22 @@ public class String01 {
         System.out.println(System.identityHashCode(y));
         System.out.println(y.intern());
 //        z = Arrays.toString(z.split("\\\\a"));
-
+        String[] zi = z.split("\\\\a");
+        for(String i :zi){
+            System.out.println(i);
+        }
         System.out.println(z+":"+ Arrays.toString(z.split("\\\\a")));
         System.out.println(System.identityHashCode(z));
-        try {
-            int i = 1/0;
-        } catch (Exception e) {
-            e.printStackTrace();
-
-            System.out.println(Arrays.toString(e.getStackTrace()));
-        }
+//        try {
+//            int i = 1/0;
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//
+//            System.out.println(Arrays.toString(e.getStackTrace()));
+//        }
         System.out.println(cat.name);
-        System.out.println(cat == cat1);
-        System.out.println(cat == cat3);
+        System.out.println(cat.name == cat1.name);
+        System.out.println(cat.name==cat3.name );
     }
 
 

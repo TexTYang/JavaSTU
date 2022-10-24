@@ -9,6 +9,7 @@ import java.util.List;
  * @author 杨
  */
 public class Solution {
+
     public static int divide(int a, int b)  {
         if (a == Integer.MIN_VALUE && b == -1) {
             return Integer.MAX_VALUE;
@@ -50,7 +51,7 @@ public class Solution {
 
 @SuppressWarnings("all")
     public static void main(String[] args){
-        var sb = new StringBuilder("1024");
+        StringBuilder sb = new StringBuilder("1024");
         sb.append("Mr ")
                 .append("Bob")
                 .append("!")
@@ -97,6 +98,14 @@ public class Solution {
 class Adder {
     private int sum = 0;
 
+    public void method(){
+        IA tiger = new IA(){
+            @Override
+            public void cry() {
+
+            }
+        };
+    }
     public Adder add(int n) {
         sum += n;
         return this;
@@ -110,4 +119,9 @@ class Adder {
     public int value() {
         return sum;
     }
+}
+
+
+interface IA{
+    public void cry();
 }
