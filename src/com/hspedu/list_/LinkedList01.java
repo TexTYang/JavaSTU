@@ -27,7 +27,7 @@ public class LinkedList01 {
         //演示，从头到尾进行遍历
         System.out.println("===从头到尾进行遍历===");
         while (true) {
-            if(first == null) {
+            if (first == null) {
                 break;
             }
             //输出first 信息
@@ -38,7 +38,7 @@ public class LinkedList01 {
         //演示，从尾到头的遍历
         System.out.println("====从尾到头的遍历====");
         while (true) {
-            if(last == null) {
+            if (last == null) {
                 break;
             }
             //输出last 信息
@@ -62,7 +62,7 @@ public class LinkedList01 {
 
         System.out.println("===从头到尾进行遍历===");
         while (true) {
-            if(first == null) {
+            if (first == null) {
                 break;
             }
             //输出first 信息
@@ -74,7 +74,7 @@ public class LinkedList01 {
         //演示，从尾到头的遍历
         System.out.println("====从尾到头的遍历====");
         while (true) {
-            if(last == null) {
+            if (last == null) {
                 break;
             }
             //输出last 信息
@@ -91,9 +91,11 @@ class Node {
     public Object item; //真正存放数据
     public Node next; //指向后一个结点
     public Node pre; //指向前一个结点
+
     public Node(Object name) {
         this.item = name;
     }
+
     public String toString() {
         return "Node name=" + item;
     }

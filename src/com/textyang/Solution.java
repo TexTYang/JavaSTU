@@ -5,40 +5,43 @@ import java.util.Formatter;
 import java.util.List;
 
 
+interface IA {
+    void cry();
+}
+
 /**
  * @author 杨
  */
 public class Solution {
 
-    public static int divide(int a, int b)  {
+    public static int divide(int a, int b) {
         if (a == Integer.MIN_VALUE && b == -1) {
             return Integer.MAX_VALUE;
         }
         int x = -Math.abs(a);
         int y = -Math.abs(b);
-        int e = 1,f,g=0;
+        int e = 1, f, g = 0;
 
-        while(x<=y){
-            for(f = y;;){
-                int k = f<<1;
-                if(k >=0){
+        while (x <= y) {
+            for (f = y; ; ) {
+                int k = f << 1;
+                if (k >= 0) {
                     break;
                 }
-                if(f>=x){
+                if (f >= x) {
                     f <<= 1;
                 }
-                if(x>f){
+                if (x > f) {
                     f >>= 1;
                     break;
-                }
-                else{
+                } else {
                     e <<= 1;
                 }
             }
             g += e;
             e = 1;
             x -= f;
-            if( x > y) {
+            if (x > y) {
                 if (((a ^ b) >>> 31) == 1) {
                     g = -g;
                 }
@@ -46,11 +49,11 @@ public class Solution {
             }
 
         }
-        return  0;
+        return 0;
     }
 
-@SuppressWarnings("all")
-    public static void main(String[] args){
+    @SuppressWarnings("all")
+    public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("1024");
         sb.append("Mr ")
                 .append("Bob")
@@ -65,11 +68,11 @@ public class Solution {
         int[][] arr = new int['a'][];
         Formatter format = new Formatter();
         int i = 10;
-        System.out.println(format.format("%o",i));
+        System.out.println(format.format("%o", i));
         System.out.println(i);
         System.out.println(sb.toString());
         System.out.println(adder.value());
-        String[] fields = { "name", "position", "salary" };
+        String[] fields = {"name", "position", "salary"};
         String table = "employee";
         String insert = buildInsertSql(table, fields);
         System.out.println(insert);
@@ -77,15 +80,16 @@ public class Solution {
         System.out.println(s);
         System.out.println(s.equals(insert) ? "测试成功" : "测试失败");
         List<Adder> arrayList = new ArrayList<>();
-        System.out.println(divide(Integer.MAX_VALUE,1));
-        System.out.println(Math.abs(Integer.MIN_VALUE-1));
+        System.out.println(divide(Integer.MAX_VALUE, 1));
+        System.out.println(Math.abs(Integer.MIN_VALUE - 1));
 
 
     }
+
     @SuppressWarnings("all")
     static String buildInsertSql(String table, String[] fields) {
         StringBuilder a = new StringBuilder("INSERT INTO employee (");
-        String b = String.join(", ",fields);
+        String b = String.join(", ", fields);
         a.append(b).append(") VALUES (?, ?, ?)");
         System.out.println(a.toString());
         return a.toString();
@@ -93,35 +97,29 @@ public class Solution {
 
 }
 
-
-
 class Adder {
     private int sum = 0;
 
-    public void method(){
-        IA tiger = new IA(){
+    public void method() {
+        IA tiger = new IA() {
             @Override
             public void cry() {
 
             }
         };
     }
+
     public Adder add(int n) {
         sum += n;
         return this;
     }
 
     public Adder inc() {
-        sum ++;
+        sum++;
         return this;
     }
 
     public int value() {
         return sum;
     }
-}
-
-
-interface IA{
-    public void cry();
 }

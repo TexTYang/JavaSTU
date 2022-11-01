@@ -45,8 +45,8 @@ public class MapMethod {
 }
 
 class Book {
-    private String name;
-    private int num;
+    private final String name;
+    private final int num;
 
     public Book(String name, int num) {
         this.name = name;

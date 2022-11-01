@@ -26,13 +26,14 @@ public class CollectionExercise {
         System.out.println("===使用迭代器来遍历===");
         Iterator iterator = list.iterator();
         while (iterator.hasNext()) {
-            Object dog =  iterator.next();
+            Object dog = iterator.next();
             System.out.println("dog=" + dog);
 
         }
 
     }
 }
+
 /**
  * 创建  3个 Dog {name, age}  对象，放入到 ArrayList 中，赋给 List 引用
  * 用迭代器和增强for循环两种方式来遍历

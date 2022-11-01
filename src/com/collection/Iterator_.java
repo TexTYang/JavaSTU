@@ -12,7 +12,7 @@ public class Iterator_ {
         list.add(55.5);
 //        Iterator迭代器
         Iterator iterator = list.iterator();
-        while(iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
 //        增强for，底层也是迭代器
@@ -23,11 +23,11 @@ public class Iterator_ {
         }
 
         List list1 = new ArrayList();
-        list1.add(new Dog("哈士奇",5));
-        list1.add(new Dog("边牧",3));
+        list1.add(new Dog("哈士奇", 5));
+        list1.add(new Dog("边牧", 3));
         list1.add(new Dog());
         Iterator iterator1 = list1.iterator();
-        while(iterator1.hasNext()){
+        while (iterator1.hasNext()) {
             System.out.println(iterator1.next());
         }
         for (Object o : list1) {
@@ -38,9 +38,19 @@ public class Iterator_ {
 }
 
 
-class Dog{
+class Dog {
     private String name;
     private int age;
+
+    Dog() {
+        name = "小狗";
+        age = 0;
+    }
+
+    Dog(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 
     @Override
     public String toString() {
@@ -63,15 +73,6 @@ class Dog{
     }
 
     public void setAge(int age) {
-        this.age = age;
-    }
-
-    Dog() {
-        name = "小狗";
-        age = 0;
-    }
-    Dog(String name, int age){
-        this.name = name;
         this.age = age;
     }
 }

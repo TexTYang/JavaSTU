@@ -1,9 +1,7 @@
 package com.hspedu.collection_;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @author 韩顺平

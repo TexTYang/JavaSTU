@@ -28,7 +28,7 @@ public class MapExercise {
         for (Object key : keySet) {
             //先获取value
             Emp emp = (Emp) hashMap.get(key);
-            if(emp.getSal() >18000) {
+            if (emp.getSal() > 18000) {
                 System.out.println(emp);
             }
         }
@@ -40,21 +40,22 @@ public class MapExercise {
         System.out.println("======迭代器======");
         Iterator iterator = entrySet.iterator();
         while (iterator.hasNext()) {
-            Map.Entry entry =  (Map.Entry)iterator.next();
+            Map.Entry entry = (Map.Entry) iterator.next();
             //通过entry 取得key 和 value
             Emp emp = (Emp) entry.getValue();
-            if(emp.getSal() > 18000) {
+            if (emp.getSal() > 18000) {
                 System.out.println(emp);
             }
         }
 
     }
 }
+
 /**
  * 使用HashMap添加3个员工对象，要求
  * 键：员工id
  * 值：员工对象
- *
+ * <p>
  * 并遍历显示工资>18000的员工(遍历方式最少两种)
  * 员工类：姓名、工资、员工id
  */

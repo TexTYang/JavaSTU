@@ -1,6 +1,7 @@
 package com.list_;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashSet;
 
 public class Present_ {
     public static void main(String[] args) {
@@ -24,25 +25,29 @@ public class Present_ {
 //        System.out.println(Arry_a[10]);
         System.out.println(print(10));
     }
-    public static int print(int i){
+
+    public static int print(int i) {
         return i;
     }
 
 }
 
 
-class NewNode{
+class NewNode {
     private static final Object PRESENT = new Object();
-    public Object print(){
+    private int hash;
+
+    public Object print() {
         return PRESENT;
     }
-    private int hash;
+
     @Override
-    public int hashCode(){
+    public int hashCode() {
 
         return 400;
     }
-    public void hashc(){
+
+    public void hashc() {
         System.out.println(hash);
     }
 }

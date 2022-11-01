@@ -7,6 +7,6 @@ public class Linked {
 }
 
 
-class NodeManger{
+class NodeManger {
 
 }

@@ -5,17 +5,15 @@ package com.hspedu.date_;
  * @version 1.0
  */
 public class Dog {
-    private String name;
-    private int age;
+    private final String name;
+    private final int age;
 
     public Dog(String name, int age) {
         this.name = name;
         this.age = age;
     }
-    public void cry() {
 
-    }
-    class Air {
+    public void cry() {
 
     }
 
@@ -26,5 +24,9 @@ public class Dog {
 
     public double getSalary() {
         return 1.1;
+    }
+
+    class Air {
+
     }
 }

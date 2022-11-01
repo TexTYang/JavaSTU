@@ -21,7 +21,7 @@ public class System_ {
         //arraycopy ：复制数组元素，比较适合底层调用，
         // 一般使用Arrays.copyOf完成复制数组
 
-        int[] src={1,2,3};
+        int[] src = {1, 2, 3};
         int[] dest = new int[3];// dest 当前是 {0,0,0}
 
         //老韩解读

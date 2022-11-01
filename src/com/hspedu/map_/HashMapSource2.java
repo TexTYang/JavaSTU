@@ -1,7 +1,6 @@
 package com.hspedu.map_;
 
 import java.util.HashMap;
-import java.util.Objects;
 
 /**
  * @author 韩顺平
@@ -13,7 +12,7 @@ public class HashMapSource2 {
 
 
         HashMap hashMap = new HashMap();
-        for(int i = 1; i <= 12; i++) {
+        for (int i = 1; i <= 12; i++) {
             hashMap.put(i, "hello");
         }
 
@@ -27,8 +26,8 @@ public class HashMapSource2 {
     }
 }
 
-class A  {
-    private int num;
+class A {
+    private final int num;
 
     public A(int num) {
         this.num = num;

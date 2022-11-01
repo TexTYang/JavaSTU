@@ -37,7 +37,7 @@ public class Homework01 {
         //(1) 写出正确的情况
         //(2) 然后取反即可
         //(3) 这样写，你的思路就不乱
-        if(!(str != null && start >= 0 && end > start && end < str.length())) {
+        if (!(str != null && start >= 0 && end > start && end < str.length())) {
             throw new RuntimeException("参数不正确");
         }
 

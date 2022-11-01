@@ -1,9 +1,7 @@
 package com.hspedu.list_;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Vector;
 
 /**
  * @author 韩顺平

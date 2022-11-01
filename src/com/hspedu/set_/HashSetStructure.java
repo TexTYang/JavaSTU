@@ -29,6 +29,7 @@ public class HashSetStructure {
 
     }
 }
+
 class Node { //结点, 存储数据, 可以指向下一个结点，从而形成链表
     Object item; //存放数据
     Node next; // 指向下一个结点

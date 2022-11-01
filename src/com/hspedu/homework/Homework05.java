@@ -12,7 +12,7 @@ public class Homework05 {
         System.out.println(a == b);
         System.out.println(a.equals(b));
         System.out.println(a.name == b.name);
-        String s4 = new String("hspedu");
+        String s4 = "hspedu";
         String s5 = "hspedu";
 
         System.out.println(s1 == s4);

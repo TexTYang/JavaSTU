@@ -2,7 +2,6 @@ package com.hspedu.set_;
 
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.Set;
 
 /**
  * @author 韩顺平
@@ -25,7 +24,7 @@ public class SetMethod {
         set.add("mary");
         set.add(null);//
         set.add(null);//再次添加null
-        for(int i = 0; i <10;i ++) {
+        for (int i = 0; i < 10; i++) {
             System.out.println("set=" + set);
         }
 
@@ -34,7 +33,7 @@ public class SetMethod {
         System.out.println("=====使用迭代器====");
         Iterator iterator = set.iterator();
         while (iterator.hasNext()) {
-            Object obj =  iterator.next();
+            Object obj = iterator.next();
             System.out.println("obj=" + obj);
 
         }

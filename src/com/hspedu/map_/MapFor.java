@@ -29,7 +29,7 @@ public class MapFor {
         System.out.println("----第二种方式--------");
         Iterator iterator = keyset.iterator();
         while (iterator.hasNext()) {
-            Object key =  iterator.next();
+            Object key = iterator.next();
             System.out.println(key + "-" + map.get(key));
         }
 
@@ -45,7 +45,7 @@ public class MapFor {
         System.out.println("---取出所有的value 迭代器----");
         Iterator iterator2 = values.iterator();
         while (iterator2.hasNext()) {
-            Object value =  iterator2.next();
+            Object value = iterator2.next();
             System.out.println(value);
 
         }
@@ -64,7 +64,7 @@ public class MapFor {
         System.out.println("----使用EntrySet 的 迭代器(第4种)----");
         Iterator iterator3 = entrySet.iterator();
         while (iterator3.hasNext()) {
-            Object entry =  iterator3.next();
+            Object entry = iterator3.next();
             //System.out.println(next.getClass());//HashMap$Node -实现-> Map.Entry (getKey,getValue)
             //向下转型 Map.Entry
             Map.Entry m = (Map.Entry) entry;

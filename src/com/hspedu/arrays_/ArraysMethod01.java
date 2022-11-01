@@ -20,7 +20,7 @@ public class ArraysMethod01 {
 
         //演示 sort方法的使用
 
-        Integer arr[] = {1, -1, 7, 0, 89};
+        Integer[] arr = {1, -1, 7, 0, 89};
         //进行排序
         //老韩解读
         //1. 可以直接使用冒泡排序 , 也可以直接使用Arrays提供的sort方法排序
@@ -66,7 +66,6 @@ public class ArraysMethod01 {
         });
         System.out.println("===排序后===");
         System.out.println(Arrays.toString(arr));//
-
 
 
     }

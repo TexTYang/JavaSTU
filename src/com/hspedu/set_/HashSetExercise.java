@@ -1,9 +1,7 @@
 package com.hspedu.set_;
 
 import java.util.HashSet;
-import java.util.LinkedHashSet;
 import java.util.Objects;
-import java.util.Set;
 
 /**
  * @author 韩顺平
@@ -52,16 +50,16 @@ class Employee {
         return age;
     }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
-    }
-
-    public void setAge(int age) {
-        this.age = age;
     }
     //如果name 和 age 值相同，则返回相同的hash值
 

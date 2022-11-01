@@ -13,13 +13,13 @@ public class List_ {
         list.add(10);
         list.add(55.5);
         System.out.println(list);
-        list.add(1,"jia");
+        list.add(1, "jia");
         System.out.println(list);
         Scanner in = new Scanner(System.in);
-        char a ;
-        for(int i = 0; i<10 ;i++){
+        char a;
+        for (int i = 0; i < 10; i++) {
             a = (char) in.nextInt();
-            list.add("Fuck You"+(char)(a+i));
+            list.add("Fuck You" + (char) (a + i));
         }
         System.out.println(list);
         String[] as = new String[100];

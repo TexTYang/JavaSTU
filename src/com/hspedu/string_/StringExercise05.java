@@ -16,12 +16,13 @@ public class StringExercise05 {
         System.out.println(p1.name == p2.name);  //T
         System.out.println(p1.name == "hspedu");   //T
 
-        String s1 = new String("bcde");
-        String s2 = new String("bcde");
-        System.out.println(s1==s2); //False
+        String s1 = "bcde";
+        String s2 = "bcde";
+        System.out.println(s1 == s2); //False
 
     }
 }
+
 class Person {
     public String name;
 }

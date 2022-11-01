@@ -39,9 +39,10 @@ public class LinkedHashSetSource {
 
     }
 }
+
 class Customer {
-    private String name;
-    private int no;
+    private final String name;
+    private final int no;
 
     public Customer(String name, int no) {
         this.name = name;

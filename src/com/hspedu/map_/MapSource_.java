@@ -1,7 +1,9 @@
 package com.hspedu.map_;
 
-import java.lang.reflect.Array;
-import java.util.*;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * @author 韩顺平
@@ -32,16 +34,15 @@ public class MapSource_ {
             //为了从 HashMap$Node 取出k-v
             //1. 先做一个向下转型
             Map.Entry entry = (Map.Entry) obj;
-            System.out.println(entry.getKey() + "-" + entry.getValue() );
+            System.out.println(entry.getKey() + "-" + entry.getValue());
         }
 
         Set set1 = map.keySet();
-        System.out.println(set1.getClass()+"  "+set1.toString());
+        System.out.println(set1.getClass() + "  " + set1.toString());
         Collection values = map.values();
         System.out.println(values.getClass());
 
         System.out.println();
-
 
 
     }
@@ -51,6 +52,6 @@ class Car {
 
 }
 
-class Person{
+class Person {
 
 }

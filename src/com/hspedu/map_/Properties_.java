@@ -35,8 +35,6 @@ public class Properties_ {
         properties.put("john", "约翰");
         System.out.println("properties=" + properties);
 
-        
-
 
     }
 }

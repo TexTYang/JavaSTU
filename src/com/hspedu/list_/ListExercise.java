@@ -37,7 +37,7 @@ public class ListExercise {
         //在使用迭代器遍历集合
         Iterator iterator = list.iterator();
         while (iterator.hasNext()) {
-            Object obj =  iterator.next();
+            Object obj = iterator.next();
             System.out.println("obj=" + obj);
         }
     }

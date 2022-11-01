@@ -9,23 +9,20 @@ public class StringVsStringBufferVsStringBuilder {
 
         long startTime = 0L;
         long endTime = 0L;
-        StringBuffer buffer = new StringBuffer("");
+        StringBuffer buffer = new StringBuffer();
 
         startTime = System.currentTimeMillis();
         for (int i = 0; i < 80000; i++) {//StringBuffer 拼接 20000次
-            buffer.append(String.valueOf(i));
+            buffer.append(i);
         }
         endTime = System.currentTimeMillis();
         System.out.println("StringBuffer的执行时间：" + (endTime - startTime));
 
 
-
-
-
-        StringBuilder builder = new StringBuilder("");
+        StringBuilder builder = new StringBuilder();
         startTime = System.currentTimeMillis();
         for (int i = 0; i < 80000; i++) {//StringBuilder 拼接 20000次
-            builder.append(String.valueOf(i));
+            builder.append(i);
         }
         endTime = System.currentTimeMillis();
         System.out.println("StringBuilder的执行时间：" + (endTime - startTime));

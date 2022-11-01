@@ -29,15 +29,15 @@ public class WrapperExercise03 {
         System.out.println(i9 == i10);//F
 
         //示例六
-        Integer i11=127;
-        int i12=127;
+        Integer i11 = 127;
+        int i12 = 127;
 //只有有基本数据类型，判断的是
 //值是否相同
-        System.out.println(i11==i12); //T
+        System.out.println(i11 == i12); //T
 //示例七
-        Integer i13=128;
-        int i14=128;
-        System.out.println(i13==i14);//T
+        Integer i13 = 128;
+        int i14 = 128;
+        System.out.println(i13 == i14);//T
 
 
     }

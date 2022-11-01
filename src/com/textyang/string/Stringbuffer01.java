@@ -13,26 +13,26 @@ public class Stringbuffer01 {
         String nu = null;
         stringbuffer.append(nu);
         System.out.println(nu);
-        System.out.println(":"+stringbuffer.length());
+        System.out.println(":" + stringbuffer.length());
         String string = "hello";
         System.out.println(System.identityHashCode(string));
-        for(int o=0;o<1;o++){
-            string="aa";
+        for (int o = 0; o < 1; o++) {
+            string = "aa";
         }
-        string="hello";
+        string = "hello";
         System.out.println(System.identityHashCode(string));
         StringBuffer stringbuffer1 = new StringBuffer(string);
         stringbuffer = stringbuffer.append(string);
         System.out.println(stringbuffer);
         stringbuffer.append("a");
         System.out.println(stringbuffer);
-        stringbuffer.delete(1,2);
+        stringbuffer.delete(1, 2);
         System.out.println(stringbuffer);
-        stringbuffer.replace(1,2,"adada");
+        stringbuffer.replace(1, 2, "adada");
         stringbuffer.append(nu);
         System.out.println(stringbuffer);
 
-        System.out.println(stringbuffer.subSequence(1,5));
+        System.out.println(stringbuffer.subSequence(1, 5));
 
 
         System.out.println(stringbuffer.length());
@@ -47,13 +47,12 @@ public class Stringbuffer01 {
         }
         System.out.println(sh);
         int i = sh.lastIndexOf(".");
-        for(;;){
-            if(i <= 3){
+        for (; ; ) {
+            if (i <= 3) {
                 break;
-            }
-            else{
+            } else {
                 i = i - 3;
-                sh.insert(i,",");
+                sh.insert(i, ",");
             }
         }
         shop.append("  ").append(sh);

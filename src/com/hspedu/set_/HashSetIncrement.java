@@ -1,7 +1,6 @@
 package com.hspedu.set_;
 
 import java.util.HashSet;
-import java.util.Objects;
 
 /**
  * @author 韩顺平
@@ -38,25 +37,25 @@ public class HashSetIncrement {
 
          */
 
-        for(int i = 1; i <= 7; i++) {//在table的某一条链表上添加了 7个A对象
+        for (int i = 1; i <= 7; i++) {//在table的某一条链表上添加了 7个A对象
             hashSet.add(new A(i));//
         }
 
-        for(int i = 1; i <= 7; i++) {//在table的另外一条链表上添加了 7个B对象
+        for (int i = 1; i <= 7; i++) {//在table的另外一条链表上添加了 7个B对象
             hashSet.add(new B(i));//
         }
-
 
 
     }
 }
 
 class B {
-    private int n;
+    private final int n;
 
     public B(int n) {
         this.n = n;
     }
+
     @Override
     public int hashCode() {
         return 200;
@@ -64,11 +63,12 @@ class B {
 }
 
 class A {
-    private int n;
+    private final int n;
 
     public A(int n) {
         this.n = n;
     }
+
     @Override
     public int hashCode() {
         return 100;

@@ -12,16 +12,16 @@ public class HashSet_ {
 
         hashset.add(null);
         hashset.add(null);
-        Console console ;
-        String a = new String("YJK");
-        String b = new String("YJK");
+        Console console;
+        String a = "YJK";
+        String b = "YJK";
 
         Node1[] table = new Node1[16];
-        Node1 node1 = new Node1("john",null);
+        Node1 node1 = new Node1("john", null);
 
-        Node1 node2 = new Node1("jack",null);
+        Node1 node2 = new Node1("jack", null);
         node1.next = node2;
-        Node1 node3 = new Node1("rose",null);
+        Node1 node3 = new Node1("rose", null);
         node2.next = node3;
         table[2] = node1;
 
@@ -30,9 +30,14 @@ public class HashSet_ {
     }
 }
 
-class Node1{
+class Node1 {
     Object item;
     Node1 next;
+
+    public Node1(Object item, Node1 next) {
+        this.item = item;
+        this.next = next;
+    }
 
     @Override
     public String toString() {
@@ -40,10 +45,5 @@ class Node1{
                 "item=" + item +
                 ", next=" + next +
                 '}';
-    }
-
-    public Node1(Object item, Node1 next) {
-        this.item = item;
-        this.next = next;
     }
 }

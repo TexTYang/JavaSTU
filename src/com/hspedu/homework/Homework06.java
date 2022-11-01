@@ -11,16 +11,16 @@ import java.util.Objects;
 public class Homework06 {
     public static void main(String[] args) {
         HashSet set = new HashSet();//ok
-        Person p1 = new Person(1001,"AA");//ok
-        Person p2 = new Person(1002,"BB");//ok
+        Person p1 = new Person(1001, "AA");//ok
+        Person p2 = new Person(1002, "BB");//ok
         set.add(p1);//ok
         set.add(p2);//ok
         p1.name = "CC";
         set.remove(p1);
         System.out.println(set);//2
-        set.add(new Person(1001,"CC"));
+        set.add(new Person(1001, "CC"));
         System.out.println(set);//3
-        set.add(new Person(1001,"AA"));
+        set.add(new Person(1001, "AA"));
         System.out.println(set);//4
 
     }

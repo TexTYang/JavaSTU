@@ -6,8 +6,8 @@ package com.hspedu.homework;
  */
 public class Homework04 {
     public static void main(String[] args) {
-            String str = "abcHsp U 1234";
-            countStr(str);
+        String str = "abcHsp U 1234";
+        countStr(str);
     }
 
     /**
@@ -29,11 +29,11 @@ public class Homework04 {
         int upperCount = 0;
         int otherCount = 0;
         for (int i = 0; i < strLen; i++) {
-            if(str.charAt(i) >= '0' && str.charAt(i) <= '9') {
+            if (str.charAt(i) >= '0' && str.charAt(i) <= '9') {
                 numCount++;
-            } else if(str.charAt(i) >= 'a' && str.charAt(i) <= 'z') {
+            } else if (str.charAt(i) >= 'a' && str.charAt(i) <= 'z') {
                 lowerCount++;
-            } else if(str.charAt(i) >= 'A' && str.charAt(i) <= 'Z') {
+            } else if (str.charAt(i) >= 'A' && str.charAt(i) <= 'Z') {
                 upperCount++;
             } else {
                 otherCount++;

@@ -1,8 +1,6 @@
 package com.hspedu.stringbuffer_;
 
 
-
-
 /**
  * @author 韩顺平
  * @version 1.0

@@ -1,6 +1,8 @@
 package com.hspedu.list_;
 
-import java.util.*;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * @author 韩顺平
@@ -24,7 +26,7 @@ public class ListFor {
         //1. 迭代器
         Iterator iterator = list.iterator();
         while (iterator.hasNext()) {
-            Object obj =  iterator.next();
+            Object obj = iterator.next();
             System.out.println(obj);
 
         }

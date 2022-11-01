@@ -12,7 +12,7 @@ public class Homework02 {
         String email = "ti@i@sohu.com";
 
         try {
-            userRegister(name,pwd,email);
+            userRegister(name, pwd, email);
             System.out.println("恭喜你，注册成功~");
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -35,8 +35,8 @@ public class Homework02 {
     public static void userRegister(String name, String pwd, String email) {
 
         //再加入一些校验
-        if(!(name != null && pwd != null && email != null)) {
-            throw  new RuntimeException("参数不能为null");
+        if (!(name != null && pwd != null && email != null)) {
+            throw new RuntimeException("参数不能为null");
         }
 
         //过关

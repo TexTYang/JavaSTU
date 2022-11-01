@@ -36,7 +36,7 @@ public class LinkedListCRUD {
         System.out.println("===LinkeList遍历迭代器====");
         Iterator iterator = linkedList.iterator();
         while (iterator.hasNext()) {
-            Object next =  iterator.next();
+            Object next = iterator.next();
             System.out.println("next=" + next);
 
         }

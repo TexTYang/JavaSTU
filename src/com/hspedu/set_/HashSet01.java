@@ -1,7 +1,6 @@
 package com.hspedu.set_;
 
 
-
 import java.util.HashSet;
 
 /**
@@ -28,7 +27,7 @@ public class HashSet01 {
         System.out.println("set=" + set);//3个
 
         //
-        set  = new HashSet();
+        set = new HashSet();
         System.out.println("set=" + set);//0
         //4 Hashset 不能添加相同的元素/数据?
         set.add("lucy");//添加成功
@@ -47,8 +46,9 @@ public class HashSet01 {
 
     }
 }
+
 class Dog { //定义了Dog类
-    private String name;
+    private final String name;
 
     public Dog(String name) {
         this.name = name;

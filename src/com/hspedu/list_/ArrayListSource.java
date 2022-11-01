@@ -1,8 +1,6 @@
 package com.hspedu.list_;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author 韩顺平

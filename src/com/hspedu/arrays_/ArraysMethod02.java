@@ -29,7 +29,7 @@ public class ArraysMethod02 {
         System.out.println(Arrays.toString(newArr));
 
         //ill 数组元素的填充
-        Integer[] num = new Integer[]{9,3,2};
+        Integer[] num = new Integer[]{9, 3, 2};
         //老韩解读
         //1. 使用 99 去填充 num数组，可以理解成是替换原理的元素
         Arrays.fill(num, 99);
@@ -51,10 +51,9 @@ public class ArraysMethod02 {
         //3. asList 运行类型 java.util.Arrays#ArrayList, 是Arrays类的
         //   静态内部类 private static class ArrayList<E> extends AbstractList<E>
         //              implements RandomAccess, java.io.Serializable
-        List asList = Arrays.asList(2,3,4,5,6,1);
+        List asList = Arrays.asList(2, 3, 4, 5, 6, 1);
         System.out.println("asList=" + asList);
         System.out.println("asList的运行类型" + asList.getClass());
-
 
 
     }

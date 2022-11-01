@@ -38,8 +38,8 @@ public class MathMethod {
         //  2 + Math.random()*6 返回的就是 2<= x < 8 小数
         //  (int)(2 + Math.random()*6) = 2 <= x <= 7
         // (3) 公式就是  (int)(a + Math.random() * (b-a +1) )
-        for(int i = 0; i < 100; i++) {
-            System.out.println((int)(2 +  Math.random() * (7 - 2 + 1)));
+        for (int i = 0; i < 100; i++) {
+            System.out.println((int) (2 + Math.random() * (7 - 2 + 1)));
         }
 
         //max , min 返回最大值和最小值
